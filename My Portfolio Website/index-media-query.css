@@ -1,0 +1,182 @@
+/* Base styles for desktop */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#profile-picture {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+/* Tablet styles */
+@media (max-width: 1024px) {
+    nav ul li {
+        display: block;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    header {
+        padding: 2rem 0;
+    }
+
+    footer {
+        padding: 2rem 0;
+    }
+
+    main {
+        padding: 1.5rem;
+    }
+
+    section {
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+
+    header {
+        padding: 1.5rem 0;
+    }
+
+    footer {
+        padding: 1.5rem 0;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    section {
+        margin-bottom: 1rem;
+    }
+
+    #profile-picture {
+        width: 80%;
+        height: auto;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+
+    header {
+        padding: 1rem 0;
+    }
+
+    footer {
+        padding: 1rem 0;
+    }
+
+    main {
+        padding: 0.5rem;
+    }
+
+    section {
+        margin-bottom: 1rem;
+    }
+
+    #profile-picture {
+        width: 100%;
+        height: auto;
+    }
+
+    p, h1, h2, h3, h4, h5, h6 {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
+
+/* Very small mobile devices */
+@media (max-width: 320px) {
+    body {
+        font-size: 12px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.3rem 0;
+        text-align: center;
+    }
+
+    header {
+        padding: 0.8rem 0;
+    }
+
+    footer {
+        padding: 0.8rem 0;
+    }
+
+    main {
+        padding: 0.3rem;
+    }
+
+    section {
+        margin-bottom: 0.8rem;
+    }
+
+    #profile-picture {
+        width: 100%;
+        height: auto;
+    }
+
+    p, h1, h2, h3, h4, h5, h6 {
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+    }
+}
